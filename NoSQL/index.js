@@ -27,7 +27,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:3001"
+        url: "https://backendpokeapi-1.onrender.com"
       }
     ]
   },
@@ -122,6 +122,6 @@ app.listen(PORT, () => {
 
   console.log(
     `Swagger disponible en:
-    http://localhost:${PORT}/api-docs`
+    https://backendpokeapi-1.onrender.com:${PORT}/api-docs`
   );
 });
