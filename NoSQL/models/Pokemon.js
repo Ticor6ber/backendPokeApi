@@ -5,7 +5,9 @@ const pokemonSchema = new mongoose.Schema({
     type: String,
     unique: true
   },
+
   altura: Number,
+
   peso: Number,
 
   habilidades: [String],
@@ -14,6 +16,9 @@ const pokemonSchema = new mongoose.Schema({
     frontal: String,
     trasera: String
   }
+
+}, {
+  collection: "pokemon"
 });
 
 module.exports = mongoose.model("Pokemon", pokemonSchema);
