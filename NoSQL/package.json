@@ -1,0 +1,28 @@
+{
+  "name": "pokemon-mongodb-api",
+  "version": "1.0.0",
+  "description": "Microservicio Pokemon con MongoDB Atlas y Swagger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "pokemon",
+    "mongodb",
+    "express",
+    "swagger"
+  ],
+  "author": "Angel Pajaro",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.15.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
